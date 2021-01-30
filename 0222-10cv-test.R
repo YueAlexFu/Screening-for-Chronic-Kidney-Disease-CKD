@@ -1,10 +1,7 @@
 
 
-#implement 
-#版权声明：本文为CSDN博主「Tiaaaaa」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-#原文链接：https://blog.csdn.net/Tiaaaaa/article/details/58116346
 
-##  Built by Matthew J. Schneider, add profit by Yue 'Alex' Fu
+##  Built by Matthew J. Schneider, added profit by Yue 'Alex' Fu
 
 c_accuracy=function(actuals,classifications){
   df=data.frame(actuals,classifications);
@@ -33,6 +30,10 @@ c_accuracy=function(actuals,classifications){
 }
 
 
+#implement 
+#版权声明：本文为CSDN博主「Tiaaaaa」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+#原文链接/reference：https://blog.csdn.net/Tiaaaaa/article/details/58116346
+# edited by Alex Fu
 
 setwd("~/Desktop/2020WINTER/STAT630/Group Project/0214")
 data_in=read.csv("dataset5815.csv",header = TRUE, row.names = 1) #***modify the dataset***
